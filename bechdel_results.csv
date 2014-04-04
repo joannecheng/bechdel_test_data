@@ -1,5 +1,5 @@
 bechdel_result_id,value
 0,Fewer than two women in this movie
-1,There are two or more women in this movie, but they don't talk to each other
-2,There are two or more women in this movie, but they only talk to each other about a man
-3,There are two or more women in this movie and they talk to each other about something other than a man
+1,"There are two or more women in this movie, but they don't talk to each other"
+2,"There are two or more women in this movie, but they only talk to each other about a man"
+3,"There are two or more women in this movie and they talk to each other about something other than a man"
