@@ -1,14 +1,13 @@
 require 'pry'
 require 'csv'
 
-year_re = /(\d{4})/
+year_re = /^(\d{4})/
 movie_name_and_result_re = /\[(\d)\]\](.*)\[/
 
 lines = open('movie_list.txt').read.split("\n")
 current_year = 2014
 movies = []
 
-#binding.pry
 lines.each do |line|
   if !year_re.match(line).nil?
     current_year = year_re.match(line)[1]
